@@ -1,0 +1,204 @@
+#logout{
+  border-radius: 15px;
+}
+#logout:hover{
+  box-shadow: 1px 1px 1px 1px rgb(219, 219, 72);
+}
+.select-deposit{
+  align-content: center;
+}
+.deposit-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #454545, #4e4d4d);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.deposit-page span{
+  position: absolute;
+  top: 20px;
+  background-color: rgb(17, 17, 17);
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 55px;
+  font-size: 16px;
+}
+.deposit-page h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.deposit-page select,
+.deposit-page input {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #fff;
+  box-shadow: none;
+  transition: 0.2s ease-in-out;
+}
+
+.deposit-page select:focus,
+.deposit-page input:focus {
+  border-color: #0d6efd;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.3);
+}
+
+.deposit-page label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ccc;
+  margin-top: 10px;
+}
+.admin-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2f3e46;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+.admin-header h1 span {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+.logout-button {
+  background-color: #d9534f;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logout-button:hover{
+  box-shadow: 2px 2px 2px 2px #d9534f;
+  background-color: #9a302c;
+}
+.home-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #6e6c6c;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+.deposit-card {
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 420px;
+  max-width: 90%;
+}
+
+.deposit-card-read {
+  background: #2e2e2e;
+  padding: 40px;
+  margin-left: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 450px;
+  max-width: 90%;
+}
+.deposit-card-read:hover{
+  filter: drop-shadow(2px 2px 5px white);
+}
+
+.admin-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.admin-header h1 span {
+  color: #0ff;
+}
+
+.logout-button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admin-table-wrapper {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #6f6a6a;
+  padding: 8px;
+  text-align: center;
+}
+
+.admin-table th {
+  background-color: #333;
+  color: white;
+}
+.submit-btn{
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-weight: bolder;
+}
+.submit-btn:hover{
+  background-color: rgb(86, 88, 88);
+  color: white;
+  font-weight: bolder;
+}
+.admin-header h1{
+  cursor: pointer;
+}
+.admin-header h1:hover{
+  color: wheat;
+}
+#admin-select{
+  background-color: #478ef7;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
